@@ -57,7 +57,7 @@ public class Game implements MonoBehaviour {
         return instance;
     }
 
-    public Game() {
+    private Game() {
         this(false);
     }
 
